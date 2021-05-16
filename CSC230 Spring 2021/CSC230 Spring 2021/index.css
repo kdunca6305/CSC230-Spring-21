@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+/* Structural Styles */
+
+html {
+    background-color: palegreen;
+}
+
+body {
+    background-color: palegreen;
+    font-family: 'Century Gothic' Georgia, Times, serif;
+}
+
+
+
+/* Heading Styles */
+
+h1 {
+    font-weight: normal;
+    color: black;
+    font: Georgia;
+}
+
+h2 {
+    font-weight: normal;
+    color: black;
+    font: Times;
+}
+
+h3 {
+    font-weight: normal;
+    color: black;
+    font: serif;
+}
+
+nav > ul {
+    list-style-type: none;
+    line-height: 2em;
+    font-size: 0.9em;
+}
+
+nav ul a:visited {
+    text-decoration: none;
+    color: rgb(43, 59, 125);
+}
+
+nav ul a:hover {
+    color: rgb(212, 35, 35)
+}
+
+nav ul a:active {
+    color: rgb(212, 35, 35)
+}
