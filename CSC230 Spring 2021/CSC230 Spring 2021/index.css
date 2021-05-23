@@ -3,7 +3,7 @@
 /* Structural Styles */
 
 html {
-    background-color: lightblue;  
+    background-color: palevioletred;  
     color: rgb(51, 51, 51);
     font-size: 12px;
  }
@@ -16,35 +16,44 @@ html {
     width: 960px;
  }
  
- header {	
-    clear: both;			   
+ header {
+    background-color: lavender;
+    clear: both;		  
     padding: 10px 20px 10px 20px;
  }
 
 
 /* Heading Styles */
 
+title {
+    font-weight: normal;
+    font-family: fantasy;
+
+}
+
 h1 {
-    background-color: palevioletred;
     font-weight: normal;
     color: black;
-    font: Geneva;
+    font-family: fantasy;
+    text-align: center;
 }
 
 h2 {
     font-weight: normal;
     color: black;
-    font: Times;
+    font-family: fantasy;
+    text-align: center;
 }
 
 h3 {
-    font-weight: normal;
+    font-weight: bold;
     color: black;
-    font: serif;
+    font-family: monospace;
 }
 
 nav > ul {
     list-style-type: none;
+    font-family: monospace;
     line-height: 2em;
     font-size: 0.9em;
 }
@@ -69,10 +78,14 @@ article {
     padding: 30px 20px 20px 20px;
  }
 
+ 
 
  /* Footer Styles */
 
  footer {	
+    background-color: lavender;
+    font-family: fantasy;
+    text-align: center;
     clear: both;			   
     padding: 30px 20px 20px 20px;
  }
