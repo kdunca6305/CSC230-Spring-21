@@ -6,27 +6,48 @@
     <meta charset="UTF-8">
     <title>CSC230 Web Design</title>
     <link href="index.css" rel="stylesheet" />
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+* {
+    box-sizing: border-box;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px;
+}
+
+.row::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+    </style>
 </head>
 
 <body>
-<header>CSC230 Website Design</header>
+<div class="header">CSC230 Website Design</div>
 <header>
     <h1>Kayla Duncan</h1>
     <h2>Information Technology</h2>
+    <img src="kayla.jpg" alt="Kayla Duncan" />
 </header>
 
 <hr>
 
 <article>
+    <div class="row">
+        <div class="column">
 <aside>
-<h3>1. Assignment 01- HTML01, Tutorial 1</h3>
+<h3>1. Assignment 01- HTML01, Tutorial</h3>
 <ul><li><a href="assn01/tutorial/ct_about.html">Curbside Thai</a></li></ul>
 </aside>
 
 <aside>
-<h3>2. Assignment 02- HTML01, Review 1</h3>
-<ul><li><a href="assn03/review/mp_index.html">Mobile Panini</a></li></ul>
+<h3>2. Assignment 06- HTML03, Tutorial</h3>
+<ul><li><a href="assn06/tutorial/tutorial/pc_home.html">Pandaisia Chocolates</a></li></ul>
 </aside>
 
 <aside>
@@ -43,7 +64,9 @@
     <h3>5. Assignment 06- HTML02, Case 2</h3>
     <ul><li><a href="assn06/case2/mw_tour.html">Mountain Wheels</a></li></ul>
 </aside>
+</div>
 
+<div class="column">
 <aside>
     <h3>6. Assignment 07- HTML03, Case 1</h3>
     <ul><li><a href="assn07/case1/case1/sp_home.html">Slate & Pencil</a></li></ul>
@@ -54,6 +77,22 @@
     <ul><li><a href="assn07/case2/case2/ce_front.html">Costume Expressions</a></li></ul>
 </aside>
 
+<aside>
+    <h3>8. Assignment 08- HTML04, Tutorial</h3>
+    <ul><li><a href="assn08/tutorial/tutorial/tb_komatsu.html">Tree and Book</a></li></ul>
+</aside>
+
+<aside>
+    <h3>9. Assignment 09- HTML05, Tutorial</h3>
+    <ul><li><a href="assn09/tutorial/tf_home.html">Trusted Friends Daycare</a></li></ul>
+</aside>
+
+<aside>
+    <h3>10. Assignment 09- HTML06, Tutorial</h3>
+    <ul><li><a href="assn09/tutorial06/dlr_evenings.html">Dakota Listeners Radio</a></li></ul>
+</aside>
+</div>
+</div>
 </article>
 
 <nav>
@@ -63,10 +102,10 @@
 </body>
 
 <hr>
-<footer>
+<div class="footer">
 <p>Sullivan University</p>
 <p><a href="mailto:kdunca6305@my.sullivan.edu">kdunca6305@my.sullivan.edu</a></p>
-</footer>
+</div>
 
 
 </html>
