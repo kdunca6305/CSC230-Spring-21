@@ -1,0 +1,91 @@
+@charset "utf-8";
+
+/* Structural Styles */
+
+html {
+    background-color: palevioletred;  
+    color: rgb(51, 51, 51);
+    font-size: 12px;
+ }
+
+ body {
+    background-color: palevioletred;
+    font-family: Verdana, Geneva, Arial, sans-serif; 	
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+ }
+ 
+ header {
+    background-color: lavender;
+    clear: both;		  
+    padding: 10px 20px 10px 20px;
+ }
+
+
+/* Heading Styles */
+
+title {
+    font-weight: normal;
+    font-family: fantasy;
+
+}
+
+h1 {
+    font-weight: normal;
+    color: black;
+    font-family: fantasy;
+    text-align: center;
+}
+
+h2 {
+    font-weight: normal;
+    color: black;
+    font-family: fantasy;
+    text-align: center;
+}
+
+h3 {
+    font-weight: bold;
+    color: black;
+    font-family: monospace;
+}
+
+nav > ul {
+    list-style-type: none;
+    font-family: monospace;
+    line-height: 2em;
+    font-size: 0.9em;
+}
+
+nav ul a:visited {
+    text-decoration: none;
+    color: rgb(43, 59, 125);
+}
+
+nav ul a:hover {
+    color: rgb(212, 35, 35)
+}
+
+nav ul a:active {
+    color: rgb(212, 35, 35)
+}
+
+/* Article Styles */
+
+article {	
+    clear: both;			   
+    padding: 30px 20px 20px 20px;
+ }
+
+ 
+
+ /* Footer Styles */
+
+ footer {	
+    background-color: lavender;
+    font-family: fantasy;
+    text-align: center;
+    clear: both;			   
+    padding: 30px 20px 20px 20px;
+ }
